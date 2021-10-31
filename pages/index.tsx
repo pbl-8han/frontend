@@ -7,7 +7,7 @@ const Home: NextPage = () => {
     <>
       <Header />
       <Text as="p" fontSize="xl" align="center" marginTop={6}>
-        現在の人数は<Text as="big">N人</Text>です。
+        現在の人数は<Text as="big" color="teal.500" fontWeight="bold">N人</Text>です。
       </Text>
     </>
   )
